@@ -52,7 +52,10 @@ header {
   padding: 1rem;
   margin: 6rem 2rem;
 }
-
+/* main area */
+main {
+  background-color: rgb(247, 248, 249);
+}
 /* action area */
 #action-area {
   width: 80%;
@@ -62,7 +65,7 @@ header {
   justify-content: space-between;
   justify-items: center;
   align-items: center;
-  margin: 5rem auto;
+  margin: 0rem auto;
 }
 .action-content {
   display: flex;
@@ -79,6 +82,7 @@ header {
 
 .webflow-content img {
   border-radius: 20px;
+  margin-top: 4rem;
 }
 
 /* users section */
@@ -206,7 +210,7 @@ header {
 /* form section */
 #form-area {
   width: 80%;
-  margin: 5rem auto;
+  margin: 0rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -215,13 +219,13 @@ header {
 }
 .form-area-heading {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
 }
 .form-content {
   width: 60%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin: 3rem 0;
 }
 .form-content div {
   display: flex;
@@ -244,32 +248,31 @@ header {
 }
 
 /* footer section */
-.footer-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    background-color: aliceblue;
-
+.footer-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: aliceblue;
 }
-.footer-area img{
-    width: 8rem;
+.footer-area img {
+  width: 8rem;
 }
-.footer-area p{
-    color: gray;
-    text-align: center;
-    font-size: .9rem;
+.footer-area p {
+  color: gray;
+  text-align: center;
+  font-size: 0.9rem;
 }
-.link-area{
-    display: flex;
-    gap: 1rem;
+.link-area {
+  display: flex;
+  gap: 1rem;
 }
-.link-area li{
-    list-style: none;
+.link-area li {
+  list-style: none;
 }
-.link-area a{
-    text-decoration: none;
-    cursor: pointer;
+.link-area a {
+  text-decoration: none;
+  cursor: pointer;
 }
