@@ -242,3 +242,34 @@ header {
   border-radius: 10px;
   padding: 1rem;
 }
+
+/* footer section */
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: aliceblue;
+
+}
+.footer-area img{
+    width: 8rem;
+}
+.footer-area p{
+    color: gray;
+    text-align: center;
+    font-size: .9rem;
+}
+.link-area{
+    display: flex;
+    gap: 1rem;
+}
+.link-area li{
+    list-style: none;
+}
+.link-area a{
+    text-decoration: none;
+    cursor: pointer;
+}
