@@ -54,7 +54,7 @@ header {
 }
 /* main area */
 main {
-  background-color: rgb(247, 248, 249);
+  background-color: #F5F7FF;
 }
 /* action area */
 #action-area {
@@ -71,6 +71,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .action-content h3 {
   font-size: 1.3rem;
@@ -255,7 +256,7 @@ main {
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  background-color: aliceblue;
+  background-color: #FFFFFF;
 }
 .footer-area img {
   width: 8rem;
